@@ -1,0 +1,112 @@
+{
+  "Categories": [
+    {
+      "name": "dairy products",
+      "Description": "Dairy products of all types of milk",
+      "link": "/MilkProducts"
+    },
+    {
+      "name": "meat products",
+      "Description": "meet by weight and related products",
+      "link": "/MeatProducts"
+    },
+    {
+      "name": "fishes",
+      "Description": "Fish by weight and related products",
+      "link": "/Fishes"
+    },
+    {
+      "name": "pastries",
+      "Description": "Baked products and prepared desserts",
+      "link": "/Pastries"
+    }
+  ],
+  "MilkProducts": [
+    {
+      "name": "milk",
+      "price": "6.90",
+      "Description": "milk in a carton 3% 1 liter "
+    },
+    {
+      "name": "cheese",
+      "price": "8.90",
+      "Description": "Cheese 5% 300 grams"
+    },
+    {
+      "name": "yogurt",
+      "price": "3.90",
+      "Description": "Vanilla flavored cheese delicacy 3% 125 grams"
+    },
+    {
+      "name": "chocolate milk",
+      "price": "8.90",
+      "Description": "Chocolate family bottle 1 liter"
+    }
+  ],
+  "MeatProducts": [
+    {
+      "name": "pastrama",
+      "price": "12.90",
+      "Description":"Coal pastrami 1 kg, Price for 100 gram"
+    },
+    {
+      "name": "chicken",
+      "price": "50.90",
+      "Description": "Fresh chicken thighs 1 kg, Price for 100 gram"
+    },
+    {
+      "name": "frozen hamburger",
+      "price": "20.90",
+      "Description": "5 frozen hamburger units"
+    },
+    {
+      "name": "chicken sausages",
+      "price": "20.90",
+      "Description": "Chicken sausages 1 kg, Price for 100 gram"
+    }
+  ],
+  "Fishes": [
+    {
+      "name": "salamon",
+      "price": "99.90",
+      "Description": "Whole fresh salmon fillet, price for 1 kg"
+    },
+    {
+      "name": "bream",
+      "price": "89.90",
+      "Description": "Fresh whole bream price for 1 kg"
+    },
+    {
+      "name": "leek",
+      "price": "69.90",
+      "Description": "For fresh whole leek, price per 1 kg"
+    },
+    {
+      "name": "spices",
+      "price": "14.90",
+      "Description": "Set of spices for cooking fish at home"
+    }
+  ],
+  "Pastries": [
+    {
+      "name": "Melbi crem",
+      "price": "12.90",
+      "Description": "Melbi cream, 2 units * 150 gram"
+    },
+    {
+      "name": "Chocolate mousse",
+      "price": "15.90",
+      "Description": "Chocolate mousse and hazelnuts, 2 units * 75 gram"
+    },
+    {
+      "name": "Cheesecake",
+      "price": "13.90",
+      "Description": "Cheesecake with blueberries, 2 units * 92 gram"
+    },
+    {
+      "name": "chocolate chip cookies",
+      "price": "11.90",
+      "Description": "Chocolate chip cookies, 12 units"
+    }
+  ]
+}
