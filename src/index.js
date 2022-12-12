@@ -22,6 +22,13 @@ root.render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App/>} >
+                <Route
+                    index
+                    element={
+                        <HomePage></HomePage>
+                    }
+                />
+                    <Route>
                     <Route path="/HomePage" element={<HomePage/>} />
                     <Route path="/Categories" element={<Categories/>} />
                     <Route path="/ContactUs" element={<ContactUs/>} />
@@ -31,6 +38,7 @@ root.render(
                     <Route path="/Fishes" element={<Fishes/>} />
                     <Route path="/Pastries" element={<Pastries/>} />
                     <Route path="/MyCart" element={<MyCart/>} />
+                    </Route>
                 </Route>
             </Routes>
         </BrowserRouter>

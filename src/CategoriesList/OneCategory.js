@@ -9,7 +9,8 @@ const OneCategory = (props) => {
         {props.category.name}
       </h5>
       <div className="card-body" style={center}>
-      <img src={`https://picsum.photos/200/30${props.mykey}`} alt=""></img>
+      <img src={`/media/${props.category.img}`} alt=""></img> 
+      {/* <img src={`https://picsum.photos/200/30${props.mykey}`} alt=""></img>  */}
         <p>{props.category.Description}</p> 
          <Link to={props.category.link}> 
           <button className="btn btn-primary" style={center}>go to {props.category.name}</button>

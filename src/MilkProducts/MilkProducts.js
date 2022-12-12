@@ -6,10 +6,6 @@ import { center } from '../OtherComponents/mainStyle'
 const MilkProducts = () =>  { 
   const [MilkProducts, setMilkProducts] = useState([])
 
-// useEffect(() => {
-//   localStorage.setItem('products', JSON.stringify(MilkProducts));
-// }, [MilkProducts]);
-
 useEffect(() => {
   const loadData = async () => {
       const res = await axios.get('https://store-management-5esp.onrender.com/Milk_products/')
